@@ -1,0 +1,66 @@
+html, body{
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    /* background-color: #ebebeb; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar #logo{
+    color: #d7385e;
+    font-size: 25px;
+    font-weight: 700;
+}
+.navbar .navbar-nav li:hover{
+    color: #d7385e;
+    font-weight: 700;
+}
+.jumbo1{
+    background-image: url(img/bg1.jpg);
+    background-size: cover;
+    height: 750px;
+}
+#homepage{
+    color: white;
+}
+#home h1{
+    font-size: 45px;
+    font-weight: 400;
+    color: #d7385e;
+}#home span{
+    /* color: #f5a25d; */
+}
+#bisanaraimg, #figmaimg, #photo{
+    width: 250px;
+}
+
+#sectiontitle{
+    color: #d7385e;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.progress-bar{
+    background-color: #d7385e;
+}
+
+#a_link{
+    font-size: 18px;
+}
+.card-body span{
+    font-weight: 700;
+}
+#btn_port{
+    background-color: #d7385e;
+    color: white;
+    font-weight: 700;
+}
+
+li img{
+    width: 30px;
+}
+
+#socialmedia{
+    background-image: url(img/bg1.jpg);
+    background-size: cover;
+}
