@@ -290,6 +290,7 @@ img {
 .home__title {
   font-size: var(--h1-font-size);
   font-weight: var(--font-extra-bold);
+  margin-bottom: var(--mb-0-75);
 }
 
 .home__title-span {
@@ -448,7 +449,6 @@ img {
   justify-self: center;
   align-self: center;
 }
-
 .about__data {
   align-self: center;
 }
