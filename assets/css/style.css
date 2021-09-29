@@ -339,6 +339,59 @@ img {
   font-size: 1.25rem;
 }
 
+/* TYPING TEXT */
+.wrapper-text {
+  display: flex;
+}
+.wrapper-text .static-text {
+  font-size: var(--h3-font-size);
+  color: var(--font-color);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-0-75);
+}
+.wrapper-text .dynamic-text {
+  margin-left: var(--mb-0-5);
+  line-height: 25px;
+  height: 25px;
+  overflow: hidden;
+}
+.dynamic-text li {
+  list-style: none;
+  color: var(--first-color);
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  position: relative;
+  top: 0;
+  animation: textSlide 6s steps(2) infinite;
+}
+@keyframes textSlide {
+  100% {
+    top: -50px;
+  }
+}
+.dynamic-text li {
+  position: relative;
+}
+.dynamic-text li::after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-left: 2px solid var(--first-color);
+  animation: typing 3s steps(18) infinite;
+}
+@keyframes typing {
+  40%,
+  60% {
+    left: calc(100% + 30px);
+  }
+  100% {
+    left: 0;
+  }
+}
+
 /* ========== BUTTONS ========== */
 .button {
   display: inline-block;
@@ -393,6 +446,10 @@ img {
   width: 200px;
   border-radius: 0.5rem;
   justify-self: center;
+  align-self: center;
+}
+
+.about__data {
   align-self: center;
 }
 
