@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- UNICONS -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- ICON WEBSITE -->
+    <link rel="icon" type="image/png" href="assets/img/iconproto.png" />
+
+    <!-- TITLE -->
+    <title>GIP Portfolio</title>
+  </head>
+  <body>
+    <!-- ========== HEADER ========== -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#home" class="nav__logo">GIP</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link"
+                ><i class="uil uil-estate nav__icon"></i>Home</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#aboutme" class="nav__link"
+                ><i class="uil uil-user nav__icon"></i>About Me</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link"
+                ><i class="uil uil-arrow nav__icon"></i>Skills</a
+              >
+            </li>
+            <!-- <li class="nav__item">
+              <a href="#services" class="nav__link"
+                ><i class="uil uil-briefcase-alt nav__icon"></i>Services</a
+              >
+            </li> -->
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link"
+                ><i class="uil uil-folder-open nav__icon"></i>Portfolio</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link"
+                ><i class="uil uil-navigator nav__icon"></i>Contact Me</a
+              >
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__buttons">
+          <div class="nav__toogle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ========== MAIN ========== -->
+    <main class="main">
+      <!-- ========== HOME ========== -->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/gregoryus-imannuel-perdana-86b762149/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/gregoryusip/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-instagram"></i>
+              </a>
+              <a
+                href="https://github.com/gregoryusip"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
+            </div>
+
+            <div class="home__img">
+              <img src="assets/img/foto2.jfif" alt="" class="home__blob" />
+            </div>
+
+            <div class="home__data">
+              <h1 class="home__title">
+                Hi, I'm <span class="home__title-span">Gregoryus</span> Imannuel
+                Perdana
+              </h1>
+              <h3 class="home__subtitle">
+                Frontend Developer & Product Management
+              </h3>
+              <p class="home__description">
+                Master Track of Computer Science Student at Bina Nusantara
+                University
+              </p>
+              <a
+                download=""
+                href="assets/pdf/CV_GregoryusImannuelPerdana.pdf"
+                class="button button--flex download__button"
+              >
+                Download CV<i class="uil uil-import button__icon"></i>
+              </a>
+              <!-- <a href="#contactme" class="button button--flex"
+                >Contact Me<i class="uil uil-navigator button__icon"></i
+              ></a> -->
+            </div>
+          </div>
+
+          <div class="home__scroll">
+            <a href="#aboutme" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll Down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== ABOUT ME ========== -->
+      <section class="about section" id="aboutme">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My Introduction</span>
+
+        <div class="about__container container grid">
+          <img src="assets/img/foto3.jpeg" alt="" class="about__img" />
+
+          <div class="about__data">
+            <p class="about__description">
+              I am a
+              <span class="about__description-bold">
+                Master Track of Computer Science student
+              </span>
+              at Bina Nusantara University, Indonesia. I live in
+              <span class="about__description-bold"> Tangerang </span>
+              , Indonesia.
+
+              <br /><br />
+              I am interested in
+              <span class="about__description-bold"> Frontend Developer </span>
+              for Website and
+              <span class="about__description-bold"> Product Management </span>
+              . I have an
+              <span class="about__description-bold">
+                internship experience
+              </span>
+              as a
+              <span class="about__description-bold">
+                Fullstack Software Engineer
+              </span>
+              for 6 months.
+            </p>
+
+            <!-- <div class="about__info">
+              <div>
+                <span class="about__info-title">7/9</span>
+                <span class="about__info-name">Semester <br /> </span>
+              </div>
+
+              <div>
+                <span class="about__info-title">06</span>
+                <span class="about__info-name"
+                  >Months <br />
+                  Experience</span
+                >
+              </div>
+
+              <div>
+                <span class="about__info-title">01</span>
+                <span class="about__info-name"
+                  >Company <br />
+                  worked</span
+                >
+              </div>
+            </div> -->
+
+            <div class="about__buttons">
+              <!-- <a download="" href="assets/" class="button button--flex">
+                Download CV<i class="uil uil-import button__icon"></i>
+              </a> -->
+              <a href="#contact" class="button button--flex about__button"
+                >Contact Me<i class="uil uil-navigator button__icon"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== SKILLS ========== -->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My Technical Level</span>
+
+        <div class="skills__container container grid">
+          <!-- SKILLS 1 -->
+          <div class="skills__content skills__open">
+            <div class="skills__header">
+              <i class="uil uil-brackets-curly skills__icon"></i>
+
+              <div>
+                <h1 class="skills__title">Frontend Developer</h1>
+                <span class="skills__subtitle">Website Frontend Developer</span>
+              </div>
+
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">HTML</h3>
+                  <span class="skills__number">75%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__html"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">CSS</h3>
+                  <span class="skills__number">60%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__css"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Javascript</h3>
+                  <span class="skills__number">50%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__js"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">React</h3>
+                  <span class="skills__number">40%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__react"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SKILLS 2 -->
+          <div class="skills__content skills__open">
+            <div class="skills__header">
+              <i class="uil uil-servers skills__icon"></i>
+              <div>
+                <h1 class="skills__title">Backend Developer</h1>
+                <span class="skills__subtitle">Website and Other Language</span>
+              </div>
+
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">GO!</h3>
+                  <span class="skills__number">60%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__go"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">PHP</h3>
+                  <span class="skills__number">50%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__php"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">SQL</h3>
+                  <span class="skills__number">60%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__sql"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Python</h3>
+                  <span class="skills__number">55%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__python"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SKILLS 3 -->
+          <div class="skills__content skills__open">
+            <div class="skills__header">
+              <i class="uil uil-palette skills__icon"></i>
+              <div>
+                <h1 class="skills__title">UI/UX Designer</h1>
+                <span class="skills__subtitle">Website and Mobile Design</span>
+              </div>
+
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Figma</h3>
+                  <span class="skills__number">75%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__figma"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">XD</h3>
+                  <span class="skills__number">60%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__xd"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Photoshop</h3>
+                  <span class="skills__number">50%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__photoshop"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Illustrator</h3>
+                  <span class="skills__number">50%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__illustrator"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SKILLS 4 -->
+          <div class="skills__content skills__open">
+            <div class="skills__header">
+              <i class="uil uil-puzzle-piece skills__icon"></i>
+              <div>
+                <h1 class="skills__title">Other Skills</h1>
+                <span class="skills__subtitle">Technical Skills</span>
+              </div>
+
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Leadership</h3>
+                  <span class="skills__number">85%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__leadership"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Team Work</h3>
+                  <span class="skills__number">85%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__teamwork"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Presentation</h3>
+                  <span class="skills__number">80%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__presentation"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">English</h3>
+                  <span class="skills__number">75%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__english"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== SERVICES ==========
+      <section class="services section" id="services">
+        <h2 class="section__title">Services</h2>
+        <span class="section__subtitle">What i offer</span>
+
+        <div class="services__container container grid">
+          <div class="services__content">
+            <div>
+              <i class="uil uil-palette services__icon"></i>
+              <h3 class="services__title">
+                UI/UX <br />
+                Designer
+              </h3>
+            </div>
+
+            <span
+              class="
+                button button--flex button--small button--link
+                services__button
+              "
+            >
+              View More
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">
+                  UI/UX <br />
+                  Designer
+                </h4>
+                <i class="uil uil-times services__modal-close"></i>
+
+                <ul class="services__modal-services grid">
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>I develop the user interface.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Web page development.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>I create UX element interactions.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>I position your company brand</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="services__content">
+            <div>
+              <i class="uil uil-brackets-curly services__icon"></i>
+              <h3 class="services__title">
+                Frontend <br />
+                Developer
+              </h3>
+            </div>
+
+            <span
+              class="
+                button button--flex button--small button--link
+                services__button
+              "
+            >
+              View More
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">
+                  UI/UX <br />
+                  Designer
+                </h4>
+                <i class="uil uil-times services__modal-close"></i>
+
+                <ul class="services__modal-services grid">
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>I develop the user interface.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Web page development.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>I create UX element interactions.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>I position your company brand</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="services__content">
+            <div>
+              <i class="uil uil-servers services__icon"></i>
+              <h3 class="services__title">
+                Backend <br />
+                Developer
+              </h3>
+            </div>
+
+            <span
+              class="
+                button button--flex button--small button--link
+                services__button
+              "
+            >
+              View More
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">
+                  UI/UX <br />
+                  Designer
+                </h4>
+                <i class="uil uil-times services__modal-close"></i>
+
+                <ul class="services__modal-services grid">
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>I develop the user interface.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Web page development.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>I create UX element interactions.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>I position your company brand</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- ========== PORTFOLIO ========== -->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div class="portfolio__nav">
+          <span class="portfolio__item active-portfolio" data-filter="all"
+            >All</span
+          >
+          <span class="portfolio__item" data-filter=".web">Web</span>
+          <span class="portfolio__item" data-filter=".ui">UI/UX</span>
+          <span class="portfolio__item" data-filter=".app">App</span>
+        </div>
+
+        <div class="portfolio__container container grid">
+          <!-- PORTFOLIO 1 -->
+          <div class="portfolio__content mix web">
+            <a
+              href="https://drive.google.com/drive/folders/1DbFBrg33sVPMG1PAzIMwQFHicDsOec_P"
+              target="_blank"
+              ><img
+                src="assets/img/portfolio/rxplayer.png"
+                alt=""
+                class="portfolio__img"
+            /></a>
+            <div class="portfolio__data">
+              <span class="portfolio__subtitle">Web Development</span>
+              <a
+                href="https://drive.google.com/drive/folders/1DbFBrg33sVPMG1PAzIMwQFHicDsOec_P"
+                target="_blank"
+                ><h2 class="portfolio__title">
+                  RX Player (Design & HTML Code)
+                </h2></a
+              >
+              <a
+                href="https://drive.google.com/drive/folders/1DbFBrg33sVPMG1PAzIMwQFHicDsOec_P"
+                target="_blank"
+                class="button button-link"
+                >View Details</a
+              >
+            </div>
+          </div>
+
+          <!-- PORTFOLIO 2 -->
+          <div class="portfolio__content mix web">
+            <a href="https://retechidn.github.io/" target="_blank"
+              ><img
+                src="assets/img/portfolio/retechWebsite.png"
+                alt=""
+                class="portfolio__img"
+            /></a>
+            <div class="portfolio__data">
+              <span class="portfolio__subtitle">Web Development</span>
+              <a href="https://retechidn.github.io/" target="_blank"
+                ><h2 class="portfolio__title">
+                  ReTech (Design & HTML Code)
+                </h2></a
+              >
+              <a
+                href="https://retechidn.github.io/"
+                target="_blank"
+                class="button button-link"
+                >View Details</a
+              >
+            </div>
+          </div>
+
+          <!-- PORTFOLIO 3 -->
+          <div class="portfolio__content mix web">
+            <a
+              href="https://drive.google.com/drive/folders/1zQRTMUJFihX0n2JB7FFf5GU-3HtMwIiX"
+              target="_blank"
+              ><img
+                src="assets/img/portfolio/vetshop.png"
+                alt=""
+                class="portfolio__img"
+            /></a>
+            <div class="portfolio__data">
+              <span class="portfolio__subtitle">Web Development</span>
+              <a
+                href="https://drive.google.com/drive/folders/1zQRTMUJFihX0n2JB7FFf5GU-3HtMwIiX"
+                target="_blank"
+                ><h2 class="portfolio__title">VET SHOP (HTML Code)</h2></a
+              >
+              <a
+                href="https://drive.google.com/drive/folders/1zQRTMUJFihX0n2JB7FFf5GU-3HtMwIiX"
+                target="_blank"
+                class="button button-link"
+                >View Details</a
+              >
+            </div>
+          </div>
+
+          <!-- PORTFOLIO 4 -->
+          <div class="portfolio__content mix ui">
+            <a
+              href="https://www.figma.com/file/Mmoq9X55LVaEg6Mutjtf6M/Mobile-Apps-Design-for-Banking?node-id=0%3A1"
+              target="_blank"
+              ><img
+                src="assets/img/portfolio/banksunib.png"
+                alt=""
+                class="portfolio__img"
+            /></a>
+            <div class="portfolio__data">
+              <span class="portfolio__subtitle">UI / UX</span>
+              <a
+                href="https://www.figma.com/file/Mmoq9X55LVaEg6Mutjtf6M/Mobile-Apps-Design-for-Banking?node-id=0%3A1"
+                target="_blank"
+                ><h2 class="portfolio__title">Bank Mobile Application</h2></a
+              >
+              <a
+                href="https://www.figma.com/file/Mmoq9X55LVaEg6Mutjtf6M/Mobile-Apps-Design-for-Banking?node-id=0%3A1"
+                target="_blank"
+                class="button button-link"
+                >View Details</a
+              >
+            </div>
+          </div>
+
+          <!-- PORTFOLIO 5 -->
+          <div class="portfolio__content mix ui">
+            <a
+              href="https://drive.google.com/drive/folders/1B7gSd4HOgqPzU4SdFnPMEanhnE-sUSjy"
+              target="_blank"
+              ><img
+                src="assets/img/portfolio/covid_19.png"
+                alt=""
+                class="portfolio__img"
+            /></a>
+            <div class="portfolio__data">
+              <span class="portfolio__subtitle">UI / UX</span>
+              <a
+                href="https://drive.google.com/drive/folders/1B7gSd4HOgqPzU4SdFnPMEanhnE-sUSjy"
+                target="_blank"
+                ><h2 class="portfolio__title">
+                  Covid-19 Mobile Application
+                </h2></a
+              >
+              <a
+                href="https://drive.google.com/drive/folders/1B7gSd4HOgqPzU4SdFnPMEanhnE-sUSjy"
+                target="_blank"
+                class="button button-link"
+                >View Details</a
+              >
+            </div>
+          </div>
+
+          <!-- PORTFOLIO 6 -->
+          <div class="portfolio__content mix ui">
+            <a
+              href="https://www.figma.com/file/kzWeDiHGFFkGjGZmJVMYyj/Log-in-Design-Video-Conference"
+              target="_blank"
+              ><img
+                src="assets/img/portfolio/logininterface.png"
+                alt=""
+                class="portfolio__img"
+            /></a>
+            <div class="portfolio__data">
+              <span class="portfolio__subtitle">UI / UX</span>
+              <a
+                href="https://www.figma.com/file/kzWeDiHGFFkGjGZmJVMYyj/Log-in-Design-Video-Conference"
+                target="_blank"
+                ><h2 class="portfolio__title">Video Conference Login</h2></a
+              >
+              <a
+                href="https://www.figma.com/file/kzWeDiHGFFkGjGZmJVMYyj/Log-in-Design-Video-Conference"
+                target="_blank"
+                class="button button-link"
+                >View Details</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== CONTACT ME ========== -->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid">
+          <div>
+            <!-- Contact 1 -->
+            <div class="contact__information">
+              <i class="uil uil-phone contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">WhatsApp</h3>
+                <span class="contact__subtitle">0813-1510-8224</span>
+              </div>
+            </div>
+
+            <!-- Contact 2 -->
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <span class="contact__subtitle"
+                  >gregoryus.imannuel200@gmail.com</span
+                >
+              </div>
+            </div>
+
+            <!-- Contact 3 -->
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <span class="contact__subtitle">Tangerang, Indonesia</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- FORM
+          <form action="" class="contact__form grid">
+            <div class="contact__inputs grid">
+              Contact Content 1
+              <div class="contact__content">
+                <label for="" class="contact__label">Name</label>
+                <input type="text" class="contact__input" />
+              </div>
+
+              Contact Content 2
+              <div class="contact__content">
+                <label for="" class="contact__label">Email</label>
+                <input type="email" class="contact__input" />
+              </div>
+            </div>
+
+            Contact Content 3
+            <div class="contact__content">
+              <label for="" class="contact__label">Message</label>
+              <textarea
+                name=""
+                id=""
+                cols="0"
+                rows="7"
+                class="contact__input"
+              ></textarea>
+            </div>
+
+            <div class="sendMessage__button">
+              <a href="" class="button button--flex">
+                Send Message
+                <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </form> -->
+        </div>
+      </section>
+
+      <!-- ========== MAIN ========== -->
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <!-- <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">GIP</h1>
+            <span class="footer__subtitle">Frontend Developer</span>
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#services" class="footer__link">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer__link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link">Contact Me</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a href="" target="_blank" class="footer__social">
+              <i class="uil uil-facebook-f"></i>
+            </a>
+            <a href="" target="_blank" class="footer__social">
+              <i class="uil uil-instagram"></i>
+            </a>
+            <a href="" target="_blank" class="footer__social">
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+          </div>
+        </div>
+
+        <p class="footer__copy">&#169; GIP. All right reserved</p>
+      </div>
+    </footer> -->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div class="footer__socials">
+            <a
+              href="https://www.linkedin.com/in/gregoryus-imannuel-perdana-86b762149/"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/gregoryusip/"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-instagram"></i>
+            </a>
+            <a
+              href="https://github.com/gregoryusip"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-github-alt"></i>
+            </a>
+          </div>
+        </div>
+
+        <p class="footer__copy">&#169; GIP. Made with Love</p>
+      </div>
+    </footer>
+
+    <!-- ========== SCROLL TOP ========== -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!-- ========== MIXITUP FILTER ========== -->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!-- ========== JS ========== -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- ========== END ========== -->
+  </body>
+</html>
