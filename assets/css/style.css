@@ -775,6 +775,7 @@ img {
 }
 .portfolio__img {
   width: 100%;
+  height: 180px;
   transition: 0.4s;
 }
 .portfolio__data {
